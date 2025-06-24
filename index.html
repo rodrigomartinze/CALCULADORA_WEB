@@ -9,36 +9,39 @@
     <link rel="stylesheet" href="style/styles.css" />
 </head>
 
+
 <body>
     <div class="calculator">
         <input type="text" id="pantalla" class="mx-auto fs-4 text-end mt-4" />
 
         <div class="buttons-grid">
-            <button class="specials" onclick="vaciar()">AC</button>
-            <button class="specials" onclick="borrar()">⌫</button>
-            <button id="boton-grande" class="operators" onclick="cambiarSigno()">+/_</button>
-            <button class="operators" onclick="agregar('%')">%</button>
 
-            <button class="numbers" onclick="agregar('7')">7</button>
-            <button class="numbers" onclick="agregar('8')">8</button>
-            <button class="numbers" onclick="agregar('9')">9</button>
-            <button class="operators" onclick="agregar('/')">/</button>
+            <button class="neon specials" onclick="vaciar()">AC</button>
+            <button class="neon specials" onclick="borrar()">⌫</button>
+            <button id="boton-grande" class="neon operators" onclick="cambiarSigno()">+/_</button>
+            <button class="neon operators" onclick="agregar('%')">%</button>
+
+            <button class="neon numbers" onclick="agregar('7')">7</button>
+            <button class="neon numbers" onclick="agregar('8')">8</button>
+            <button class="neon numbers" onclick="agregar('9')">9</button>
+            <button class="neon operators" onclick="agregar('/')">/</button>
             
-            <button class="numbers" onclick="agregar('4')">4</button>
-            <button class="numbers" onclick="agregar('5')">5</button>
-            <button class="numbers" onclick="agregar('6')">6</button>
-            <button class="operators" onclick="agregar('*')">*</button>
+            <button class="neon numbers" onclick="agregar('4')">4</button>
+            <button class="neon numbers" onclick="agregar('5')">5</button>
+            <button class="neon numbers" onclick="agregar('6')">6</button>
+            <button class="neon operators" onclick="agregar('*')">*</button>
             
             
-            <button class="numbers" onclick="agregar('1')">1</button>
-            <button class="numbers" onclick="agregar('2')">2</button>
-            <button class="numbers" onclick="agregar('3')">3</button>
-            <button id="boton-grande" class="operators" onclick="agregar('-')">-</button>
+            <button class="neon numbers" onclick="agregar('1')">1</button>
+            <button class="neon numbers" onclick="agregar('2')">2</button>
+            <button class="neon numbers" onclick="agregar('3')">3</button>
+            <button id="boton-grande" class="neon operators" onclick="agregar('-')">-</button>
             
-            <button class="numbers" onclick="agregar('0')">0</button>
-            <button class="numbers" onclick="agregar('.')">.</button>
-            <button class="operators" onclick="calcular()">=</button>
-            <button class="operators" onclick="agregar('+')">+</button>
+            <button class="neon numbers" onclick="agregar('0')">0</button>
+            <button class="neon numbers" onclick="agregar('.')">.</button>
+            <button class="neon operators" onclick="calcular()">=</button>
+            <button class="neon operators" onclick="agregar('+')">+</button>
+
 
         </div>
 
